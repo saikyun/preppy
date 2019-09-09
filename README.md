@@ -12,3 +12,4 @@ prepl-mode for emacs
 
 ### ToDo
 - Session management
+- `expr-at-point` should include `#` (and similar) before sexp
