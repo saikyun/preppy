@@ -7,7 +7,9 @@ prepl-mode for emacs
 (preppy-write-message preppy-connection "(* 10 100)")`
 (preppy-disconnect)
 ;; interactively
-(preppy-eval-expression-at-point)
+(preppy-start-clojure-and-connect) ;; starts `clojure` with arguments to start a prepl-server at localhost:5555
+(preppy-eval-expression-at-point) ;; sends the expression to that prepl-server
+(preppy-stop-clojure) ;; stops the clojure process
 ```
 
 ### ToDo
